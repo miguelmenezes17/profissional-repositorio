@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor01: #1D1073;
+    --cor02: #0903A6;
+    --cor03: #BBBFBA;
+    --cor04: #735449;
+    --cor05: #A67165;
+
+    --font01: "Bodoni Moda SC", serif;;
+    --font02: "Judson", serif;
+    --font03: "Jersey 10", sans-serif;
+    --font04: "Share Tech Mono", monospace;
+    
+}
+
+body {
+    background-image: url(../imagens/foto.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: linear-gradient(to top, #0803a69f, #14085e);
+    height: 480px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header > nav {
+    align-self: flex-end;
+}
+
+header > nav > ul {
+    display: inline-flex;
+    list-style-type: none;
+    
+}
+
+header > nav > ul > li {
+    padding: 10px;
+    background-color: var(--cor02);
+    line-height: 10px;
+    margin: auto 10px auto 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid white;
+    
+}
+
+header > nav > ul > li:hover {
+    background-color: #2923c0;
+    border-bottom: 2px solid black;
+    transition-duration: 0.8s ease;
+    transition-delay: 0.2s;
+}
+
+header > nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+header > h1 {
+    align-self: center;
+    color: #d8d8b6ef;
+    margin: auto;
+    text-align: center;
+    padding: 20px 15px 10px 15px;
+    max-width: 300px;
+    font-size: 2.4em;
+    font-family: var(--font03);
+    text-shadow: 3px 2px 3px black;
+}
+
+header > h1:hover {
+    color: #eeeeb9ef;
+    cursor: pointer;
+}
+
+header > span#foto {
+    border: 0.2px solid rgba(0, 0, 0, 0.507);
+    box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.541);
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-image: url(../imagens/minhafoto.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header > span#foto:hover {
+    cursor: pointer;
+}
+
+main {
+    margin: auto;
+    max-width: 400px;
+    background-color: white;
+}
+
+main p {
+    line-height: 35px;
+    text-align: justify;
+    text-indent: 10px;
+    padding: 15px;
+    margin: 12px;
+    font-size: 1.08em;
+}
+
+main > section.first {
+    background-color: #0a02ee8a;
+    margin-top: -20px;
+}
+
+main > section.first > h2 {
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    font-size: 2.3em;
+    color: #0e063d;
+
+}
+
+main > section.first > p {
+    color: white;
+    margin: 20px 25px 10px 25px;
+    padding: 15px;
+    
+}
+
+main > section.first > span.imagem > picture {
+    display: flex;
+    position: relative;
+    height: 250px;
+}
+
+main > section.first > .imagem > picture > img {
+    width: 300px;
+    
+    position: relative;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 3px 2px 4px #0800ff91;
+}
+
+main > section#img-first {
+    background-image: url(../imagens/foto2.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    display: flex;
+    margin-top: -10px;
+}
+
+main > section#img-first > article {
+    backdrop-filter: blur(5px);
+    align-self: center;
+    margin: auto;
+
+    background: rgba(255, 255, 255, 0);
+    height: 565px;
+    width: 365px;
+    border-radius: 20px;
+    display: flex;
+}
+
+main > section#img-first > article > h2 {
+    color: #ffffff;
+    text-shadow: 4px 2px 3px #ffffff44;
+    font-size: 2.5em;
+    text-align: center;
+    margin: auto;
+}
