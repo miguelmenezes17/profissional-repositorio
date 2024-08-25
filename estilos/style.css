@@ -224,11 +224,5 @@ main > span#img-second {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
-    -webkit-filter: blur(1px);
-    -moz-filter: blur(1px);
-    -o-filter: blur(1px);
-    -ms-filter: blur(1px);
-    filter: blur(2px);
     filter: opacity(80%);
 }
