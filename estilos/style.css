@@ -219,7 +219,7 @@ main > section.second > span > picture > img {
 main > span#img-second {
     height: 600px;
     display: block;
-    background-image: url(../imagens/foto4.jpg);
+    background-image: url(../imagens/foto4-mod.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
