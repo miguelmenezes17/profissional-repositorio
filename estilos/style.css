@@ -213,7 +213,18 @@ main > section.second > span > picture > img {
     box-shadow: 4px 2px 4px #00000056;
 }
 
+main > section.terc > picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
 
+main > section.terc > picture > img {
+    width: 370px;
+    border-radius: 20px;
+    box-shadow: 4px 2px 4px #00000056;
+}
 
 
 main > span#img-second {
@@ -225,4 +236,81 @@ main > span#img-second {
     background-size: cover;
     background-attachment: fixed;
     filter: opacity(80%);
+}
+
+main > section.terc > p {
+    line-height: 2.7em;
+    padding: 10px;
+    margin: 10px;
+}
+
+main > section.terc > article > p {
+    line-height: 2.7em;
+    padding: 10px;
+}
+
+main > span#img-terc {
+    height: 600px;
+    display: block;
+    background-image: url(../imagens/foto6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: opacity(80%);
+}
+
+section.quart {
+    height: 600px;
+    background-color: #393694;
+    margin-top: 0px;
+    display: flex;
+}
+
+section.quart > article {
+    background-color: rgba(0, 0, 0, 0.782);
+    width: 270px;
+    font-size: 14px;
+    margin: 20px auto;
+    align-self: center;
+    border-radius: 16px;
+    box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.401);
+}
+
+section.quart > article > p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main p a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 1px 6px 1px 6px;
+    border-radius: 6px;
+}
+
+main p a:hover {
+    text-decoration: 1px solid underline black;
+    color: rgb(28, 0, 212);
+    background-color: #f6ff4eb4;
+    transition-duration: 0.7s;
+    transition-delay: ease;
+}
+
+footer {
+    background-color: var(--cor02);
+    color: white;
+    margin: 1px 0px 0px 0px;
+    padding: 30px;
+}
+
+footer p {
+    text-align: center;
+    cursor: pointer;
+}
+
+footer p:hover {
+    color: brown;
 }
