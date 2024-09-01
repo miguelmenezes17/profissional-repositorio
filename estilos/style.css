@@ -38,42 +38,42 @@ body {
 
 header {
     background-image: linear-gradient(to top, #0803a69f, #14085e);
-    height: 480px;
+    height: 680px;
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
     justify-content: center;
 }
 
-header > nav {
+header > nav#itens {
     align-self: flex-end;
 }
 
-header > nav > ul {
-    display: inline-flex;
+header > nav#itens > ul {
+    display: flex;
+    flex-flow: row wrap;
     list-style-type: none;
-    
+    gap: 1.4em;
 }
 
-header > nav > ul > li {
+header >  nav#itens > ul > li {
     padding: 10px;
     background-color: var(--cor02);
     line-height: 10px;
-    margin: auto 10px auto 10px;
+    margin: auto 20px auto 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom: 2px solid white;
     
 }
 
-header > nav > ul > li:hover {
+header >  nav#itens > ul > li:hover {
     background-color: #2923c0;
     border-bottom: 2px solid black;
     transition-duration: 0.8s ease;
     transition-delay: 0.2s;
 }
 
-header > nav > ul > li > a {
+header > nav#itens > ul > li > a {
     color: white;
     text-decoration: none;
     
@@ -106,6 +106,7 @@ header > span#foto {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    align-self: center;
 }
 
 header > span#foto:hover {
@@ -156,7 +157,7 @@ main > section.first > span.imagem > picture {
 }
 
 main > section.first > .imagem > picture > img {
-    width: 370px;
+    max-width: 300px;
     border-radius: 20px;
     box-shadow: 3px 2px 4px #0800ff91;
 
@@ -208,7 +209,7 @@ main > section.second > span > picture {
 }
 
 main > section.second > span > picture > img {
-    width: 370px;
+    max-width: 300px;
     border-radius: 20px;
     box-shadow: 4px 2px 4px #00000056;
 }
@@ -221,7 +222,7 @@ main > section.terc > picture {
 }
 
 main > section.terc > picture > img {
-    width: 370px;
+    max-width: 300px;
     border-radius: 20px;
     box-shadow: 4px 2px 4px #00000056;
 }
@@ -236,6 +237,11 @@ main > span#img-second {
     background-size: cover;
     background-attachment: fixed;
     filter: opacity(80%);
+}
+
+main > span#img-second > article > h2 {
+    margin: auto;
+    text-align: center;
 }
 
 main > section.terc > p {
