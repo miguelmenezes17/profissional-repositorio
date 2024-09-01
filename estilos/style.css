@@ -128,6 +128,21 @@ main p {
     font-size: 1.08em;
 }
 
+main p a {
+    text-decoration: none;
+    color: rgb(0, 5, 68);
+    padding: 1px 6px 1px 6px;
+    border-radius: 6px;
+}
+
+main p a:hover {
+    text-decoration: 1px solid underline black;
+    color: rgb(33, 0, 247);
+    background-color: #9dffdabd;
+    transition-duration: 0.7s;
+    transition-delay: ease;
+}
+
 main > section.first {
     background-color: #0a02ee8a;
     margin-top: -20px;
@@ -185,6 +200,7 @@ main > section#img-first > article {
     width: 365px;
     border-radius: 20px;
     display: flex;
+    align-items: center;
 }
 
 main > section#img-first > article > h2 {
@@ -193,6 +209,7 @@ main > section#img-first > article > h2 {
     font-size: 2.5em;
     text-align: center;
     margin: auto;
+    align-self: center;
 }
 
 main > section.second {
@@ -228,9 +245,9 @@ main > section.terc > picture > img {
 }
 
 
-main > span#img-second {
+main > section#img-second {
     height: 600px;
-    display: block;
+    display: flex;
     background-image: url(../imagens/foto4-mod.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -239,10 +256,40 @@ main > span#img-second {
     filter: opacity(80%);
 }
 
-main > span#img-second > article > h2 {
+main > section#img-second > article {
     margin: auto;
-    text-align: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    display: flex;
+    background-color: #1f1c80a2;
+    padding: 30px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.274);
 }
+
+main > section#img-second > article > i#down {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    align-self: center;
+    padding-bottom: 40px;
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.404)
+    
+}
+
+main > section#img-second > article > h2 {
+    color: #ffffff;
+    text-shadow: 4px 2px 3px #00000086;
+    font-size: 2.5em;
+}
+
+main > section#img-second > article > i#up {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    align-self: center;
+    padding-top: 40px;
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.404)
+} 
 
 main > section.terc > p {
     line-height: 2.7em;
@@ -274,36 +321,21 @@ section.quart {
 }
 
 section.quart > article {
-    background-color: rgba(0, 0, 0, 0.782);
-    width: 270px;
-    font-size: 14px;
+    width: 300px;
+    font-size: 18px;
     margin: 20px auto;
     align-self: center;
     border-radius: 16px;
-    box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.401);
 }
 
 section.quart > article > p {
     text-align: center;
     color: rgb(255, 255, 255);
     font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font02);
 }
 
-main p a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 1px 6px 1px 6px;
-    border-radius: 6px;
-}
 
-main p a:hover {
-    text-decoration: 1px solid underline black;
-    color: rgb(28, 0, 212);
-    background-color: #f6ff4eb4;
-    transition-duration: 0.7s;
-    transition-delay: ease;
-}
 
 footer {
     background-color: var(--cor02);
@@ -315,8 +347,33 @@ footer {
 footer p {
     text-align: center;
     cursor: pointer;
+    font-size: 1.5em;
 }
 
 footer p:hover {
     color: brown;
+}
+
+footer > #icon {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+footer > #icon a {
+    margin: auto;
+    padding-top: 40px;
+    font-size: 1.3em;
+}
+
+footer > #icon a i {
+    color: white;
+}
+
+footer > #icon a i:hover {
+    color: green;
+}
+
+footer > #icon a i:active {
+    color: yellow;
 }
