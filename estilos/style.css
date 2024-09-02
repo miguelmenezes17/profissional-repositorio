@@ -52,7 +52,6 @@ header > nav#itens > ul {
     display: flex;
     flex-flow: row wrap;
     list-style-type: none;
-    gap: 1.4em;
 }
 
 header >  nav#itens > ul > li {
