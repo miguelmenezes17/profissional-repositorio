@@ -50,7 +50,7 @@ header > nav#itens {
 
 header > nav#itens > ul {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     list-style-type: none;
 }
 
