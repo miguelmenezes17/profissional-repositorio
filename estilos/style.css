@@ -178,8 +178,6 @@ main > section.first > .imagem > picture > img {
     max-width: 300px;
     border-radius: 20px;
     box-shadow: 3px 2px 4px #0800ff91;
-
-    
 }
 
 main > section#img-first {
@@ -194,16 +192,24 @@ main > section#img-first {
 }
 
 main > section#img-first > article {
-    backdrop-filter: blur(5px);
-    align-self: center;
     margin: auto;
-
-    background: rgba(255, 255, 255, 0);
-    height: 565px;
-    width: 365px;
-    border-radius: 20px;
+    justify-content: center;
+    flex-flow: column wrap;
     display: flex;
-    align-items: center;
+    background-color: #1b869452;
+    padding: 30px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.274);
+}
+
+main > section#img-first > article > i#down {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    align-self: center;
+    padding-bottom: 40px;
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.404);
+    margin-top: 40px;
 }
 
 main > section#img-first > article > h2 {
@@ -213,6 +219,15 @@ main > section#img-first > article > h2 {
     text-align: center;
     margin: auto;
     align-self: center;
+}
+
+main > section#img-first > article > i#up {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    align-self: center;
+    padding-top: 40px;
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.404);
+    margin-bottom: 40px;
 }
 
 main > section.second {
@@ -247,7 +262,6 @@ main > section.terc > picture > img {
     box-shadow: 4px 2px 4px #00000056;
 }
 
-
 main > section#img-second {
     height: 600px;
     display: flex;
@@ -276,8 +290,7 @@ main > section#img-second > article > i#down {
     font-size: 3em;
     align-self: center;
     padding-bottom: 40px;
-    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.404)
-    
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.404)  
 }
 
 main > section#img-second > article > h2 {
