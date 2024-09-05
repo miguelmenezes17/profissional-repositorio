@@ -221,7 +221,7 @@ main > section#img-first > article > h2 {
     align-self: center;
 }
 
-main > section#img-first > article > i#up {
+main > section#img-first > article > i#up { 
     color: rgb(255, 255, 255);
     font-size: 3em;
     align-self: center;
