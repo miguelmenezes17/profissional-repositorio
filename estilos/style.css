@@ -102,8 +102,8 @@ header > h1:hover {
 header > span#foto {
     border: 0.2px solid rgba(0, 0, 0, 0.507);
     box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.541);
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     background-image: url(../imagens/minhafoto.jpg);
     background-position: center center;
@@ -118,7 +118,7 @@ header > span#foto:hover {
 
 main {
     margin: auto;
-    max-width: 500px;
+    max-width: 450px;
     background-color: white;
 }
 

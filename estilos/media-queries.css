@@ -15,3 +15,27 @@ Grandes Telas: Acima de 1200px;
 @media screen and (max-width: 600px) {
 
 }
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    main {
+        max-width: 570px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main {
+        max-width: 670px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    main {
+        max-width: 770px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        max-width: 970px
+    }
+}
