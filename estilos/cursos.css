@@ -1,2 +1,125 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+
+:root {
+    --cor01: #1D1073;
+    --cor02: #0903A6;
+    --cor03: #BBBFBA;
+    --cor04: #735449;
+    --cor05: #A67165;
+
+    --font01: "Bodoni Moda SC", serif;;
+    --font02: "Judson", serif;
+    --font03: "Jersey 10", sans-serif;
+    --font04: "Share Tech Mono", monospace;
+}
+
+header {
+    background-image: linear-gradient(to top, #0803a69f, #14085e);
+    height: 200px;    
+}
+
+header > h1 {
+    font-family: var(--font01);
+    font-size: 2.3em;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    text-decoration: 2px underline rgba(255, 255, 255, 0.308);
+}
+
+header > h1:hover {
+    text-decoration: 2px underline rgba(255, 255, 255, 0.678);
+    cursor: pointer;
+}
+
+header > nav {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+header > nav > ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+}
+
+
+header > nav > ul > li {
+    background-color: var(--cor02);
+    padding: 12px 16px;
+    flex-flow: row wrap;
+    border-radius: 10px;
+    margin: 20px 100px;
+    
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > nav > ul > li:hover {
+    background-color: #1a175cc4;
+    transition: ease 1s;
+    transition-duration: 0.8s;
+}
+
+header > nav > ul > li > a:hover {
+    text-decoration: 2px underline rgba(255, 255, 255, 0.712);
+    color: yellow;
+    transition: ease 1s;
+    transition-duration: 0.8s;
+
+    
+}
+
+main {
+    max-width: 450px;
+    margin: auto;
+    background-color: #0803a69f;
+}
+
+mark {
+    color: #0903A6;
+    background-color: beige;
+}
+
+p {
+    font-family: var(--font02);
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    padding: 35px;
+    margin: -0.5px 12px;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 2.5em;
+}
+
+h2, h3 {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to left, #7966f8, #1D1073);
+    text-align: justify;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bolder;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.315);
+}
