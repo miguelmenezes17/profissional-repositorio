@@ -97,6 +97,19 @@ main {
     background-color: #0803a69f;
 }
 
+main a {
+    color: #faa509;
+    background-color: #3416f7b7;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+main a:hover {
+    color: #ffc04b;
+    background-color: #7863ffb7;
+    transition: ease;
+}
+
 mark {
     color: #0903A6;
     background-color: beige;
