@@ -64,10 +64,10 @@ header > nav > ul {
 
 header > nav > ul > li {
     background-color: var(--cor02);
-    padding: 12px 16px;
+    padding: 10px 16px;
     flex-flow: row wrap;
     border-radius: 10px;
-    margin: 20px 100px;
+    margin: 8px 100px;
     
 }
 
