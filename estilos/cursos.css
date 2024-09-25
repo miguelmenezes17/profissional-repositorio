@@ -136,3 +136,15 @@ h2, h3 {
     font-weight: bolder;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.315);
 }
+
+
+main > section > article > .curse-html > span.img-terc {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+main > section > article > .curse-html > span.img-terc > img {
+    border-radius: 10px;
+    align-self: center;
+}
