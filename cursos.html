@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursos Feitos | Miguel Angell</title>
     <link rel="stylesheet" href="estilos/cursos.css">
+    <link rel="stylesheet" href="estilos/media-cursos.css">
 </head>
 
 <body>
@@ -47,7 +48,7 @@
                     <p>Iniciamos em CSS, estudando seus tipos, isto é: Inline/internos e externos...</p>
 
                 </div>
-                <div class="curse-html">
+                <div class="curse-html5">
                     <h3>HTML5 E CSS3 - Modulo 2</h3>
                     <p>
                         Realizando o módulo 2 do curso de HTML5 e CSS3 do Cursoemvideo, com o professor Gustavo
@@ -73,10 +74,14 @@
                     <h3>HTML5 E CSS3 - Modulo 3</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit atque vero earum officiis laudantium incidunt nemo? Commodi eveniet magni, repellendus, minus quam eum ea ab illum incidunt non sunt unde!</p>
 
-                    <span>
-                        <source src="" type="">
-                        <img src="" alt="">
-                    </span>
+                    <picture class="img004">
+                        <source media="(max-width: 600px)" srcset="imagens/image004-300x200.png" type="image/png">
+                        <source media="(max-width: 768px)" srcset="imagens/image004-400x267.png" type="image/png">
+                        <source media="(max-width: 992px)" srcset="imagens/image004-520x347.png" type="image/png">
+                        <source media="(max-width: 1200px)" srcset="imagens/image004-670x447.png" type="image/png">
+                        <source media="(min-width: 1200px)" srcset="imagens/image004-880x587.png" type="image/png">
+                        <img src="imagens/image004.jpg" alt="Imagem Flexivel">
+                    </picture>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quia neque soluta rem nulla non ducimus? Quas, at vero quisquam eius sequi, voluptatibus totam laboriosam modi possimus nisi nihil necessitatibus?</p>
                 </div>
