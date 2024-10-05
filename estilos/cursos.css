@@ -157,10 +157,8 @@ main > section > article > div.curse-html > .img004 {
     
 }
 
-main > section > article > div.curse-html > .img004 > source {
-    
-}
-
-main > section > article > div.curse-html > .img004 > source > img {
-    
+main > section > article > .curse-html3 > .img002 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
