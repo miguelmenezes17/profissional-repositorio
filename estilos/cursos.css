@@ -121,7 +121,6 @@ main a:hover {
 
 mark {
     color: #0903A6;
-    background-color: rgb(255, 223, 134);
     padding: 2px;
 }
 
@@ -147,7 +146,7 @@ h2, h3 {
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.315);
 }
 
-main > section > article > .curse-html > .color-brown {
+main > section > article > .curse-html > .color-white {
     background-color: #e2d7d3;
     margin: 0px 14px 20px 14px;
     padding: 5px;
@@ -155,14 +154,14 @@ main > section > article > .curse-html > .color-brown {
     font-weight: bolder;
 }
 
-main > section > article > .curse-html > .color-brown > h3 {
+main > section > article > .curse-html > .color-white > h3 {
     margin: -5px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     font-size: 1.6em;
 }
 
-main > section > article > .curse-html > .color-brown > p {
+main > section > article > .curse-html > .color-white > p {
     color: black;
 }
 
@@ -176,8 +175,6 @@ main > section > article > .curse-html > span.img-terc > img {
     border-radius: 10px;
     align-self: center;
 }
-
-
 
 main > section > article > div.curse-html > .img004 {
     display: flex;
@@ -196,4 +193,23 @@ main > section > article > .curse-html > .img005 {
     display: flex;
     justify-content: center;
     align-self: center;
+}
+
+main > section > article > .curse-html5 > .color-module2 {
+    background-color: #e2d7d3;
+    margin: 0px 14px 20px 14px;
+    padding: 5px;
+    border-radius: 12px;
+    font-weight: bolder;
+}
+
+main > section > article > .curse-html5 > .color-module2 > h3 {
+    margin: -5px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size: 1.6em;
+}
+
+main > section > article > .curse-html5 > .color-module2 > p {
+    color: black;
 }
