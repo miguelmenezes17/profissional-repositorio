@@ -76,7 +76,7 @@ header > nav > ul > li {
     background-color: var(--cor02);
     padding: 10px 16px;
     flex-flow: row wrap;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 15px 100px;
     
 }
