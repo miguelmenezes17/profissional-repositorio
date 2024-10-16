@@ -33,10 +33,31 @@ Grandes Telas: Acima de 1200px;
     main {
         max-width: 770px;
     }
+
+    main > section > span#fundo-py {
+        display: flex;
+        background-image: url(../imagens/fundo-py-grande.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        height: 700px;
+        box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.527);
+    }
 }
 
 @media screen and (min-width: 1200px) {
     main {
         max-width: 970px;
+    }
+
+    main > section > span#fundo-py {
+        display: flex;
+        background-image: url(../imagens/fundo-py-grande.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        height: 700px;
     }
 }

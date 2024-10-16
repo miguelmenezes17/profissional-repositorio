@@ -171,17 +171,10 @@ main > section.first > h2 {
     background-image: linear-gradient(to top, #7A76F6, rgba(0, 0, 163, 0.651));
 }
 
-main > section.first > span.imagem > picture {
+main > section.first > span.imagem {
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 300px;
-}
-
-main > section.first > .imagem > picture > img {
-    max-width: 300px;
-    border-radius: 20px;
-    box-shadow: 3px 2px 4px #0800ff91;
+    align-self: center;
 }
 
 main > section#img-first {
@@ -244,7 +237,6 @@ main > section.second > span > picture {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
 }
 
 main > section.second > span > picture > img {
@@ -257,7 +249,6 @@ main > section.terc > picture {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
 }
 
 main > section.terc > picture > img {
@@ -324,6 +315,13 @@ main > section.terc > article > p {
     padding: 10px;
 }
 
+main > section.terc > .imagem-final {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+
 main > span#img-terc {
     height: 600px;
     display: block;
@@ -334,6 +332,7 @@ main > span#img-terc {
     background-attachment: fixed;
     filter: opacity(80%);
 }
+
 
 section.quart {
     height: 600px;

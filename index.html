@@ -31,10 +31,15 @@
             <p>Olá, eu sou <strong>Miguel Angell Anicio Menezes</strong>, um jovem de 18 anos que está se mergulhando no
                 mundo da
                 tecnologia.</p>
+
             <span class="imagem">
                 <picture>
-                    <source src="" type="">
-                    <img src="imagens/foto.jpg" alt="">
+                    <source media="(max-width: 600px)" srcset="imagens/foto-300x199.png" type="image/png">
+                    <source media="(max-width: 768px)" srcset="imagens/foto-400x265.png" type="image/png">
+                    <source media="(max-width: 992px)" srcset="imagens/foto-520x345.png" type="image/png">
+                    <source media="(max-width: 1200px)" srcset="imagens/foto-670x444.png" type="image/png">
+
+                    <img src="imagens/foto.jpg" alt="" style="border-radius: 25px; max-width: 800px;">
                 </picture>
             </span>
 
@@ -84,19 +89,22 @@
                     href="https://wa.me/31998518423" target="_blank">31 998518423</a>.
             </p>
 
-            <picture>
-                <source src="" type="">
-                <img src="imagens/foto5.jpg" alt="">
-            </picture>
+            <span class="imagem-final">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="imagens/foto5-300x225.png" type="image/png">
+                    <source media="(max-width: 768px)" srcset="imagens/foto5-400x300.png" type="image/png">
+                    <source media="(max-width: 992px)" srcset="imagens/foto5-520x390.png" type="image/png">
+                    <img src="imagens/foto5.jpg" alt="" style="border-radius: 25px; max-width: 800px;">
+                </picture>
+            </span>
+
             <article>
                 <p>Estou pronto para ajudar a tornar sua presença online ainda mais marcante e eficiente. Vamos
                     trabalhar juntos para alcançar os seus objetivos na web!</p>
             </article>
         </section>
 
-        <span id="img-terc">
-
-        </span>
+        <span id="img-terc"></span>
 
         <section class="quart">
             <article>

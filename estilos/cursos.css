@@ -236,6 +236,17 @@ main > section > article > .curse-html5 > .color-module2 > p {
     color: black;
 }
 
+main > section > span#fundo-py {
+    display: flex;
+    background-image: url(../imagens/fundo-py.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 700px;
+}
+
+
 footer {
     background-color: #000000a8;
     display: flex;
