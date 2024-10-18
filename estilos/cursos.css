@@ -283,6 +283,52 @@ main > section > article > .curse-html > .video-modulo3 > iframe {
 
 }
 
+main > section > article > .video-modulo4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #0903A6;
+    margin: 0px -1px 20px -1px;
+    
+    padding: 20px;
+    padding-bottom: 52.5%;
+    position: relative;
+}
+
+main > section > article > .video-modulo4 > iframe {
+    border-radius: 30px;
+
+    top: 4%;
+    left: 4%;
+    position: absolute;
+    width: 91%;
+    height: 91%;
+}
+
+
+main > section > article > .curse-html3 > .video-modulo5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #0903A6;
+    margin: 0px 0px 0px 0px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+main > section > article > .curse-html3 > .video-modulo5 > iframe {
+    border-radius: 30px;
+
+    top: 4.2%;
+    left: 4.2%;
+    position: absolute;
+    width: 91%;
+    height: 91%;
+}
+
 main > section > span#fundo-py {
     display: flex;
     background-image: url(../imagens/fundo-py.jpg);
