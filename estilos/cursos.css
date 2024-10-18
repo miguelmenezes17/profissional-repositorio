@@ -162,12 +162,12 @@ main > section > article > .curse-html > .color-white > .html-modulo1 {
     background-color: #0903A6;
     margin: 0px -5px 30px -5px;
     padding: 20px;
-    padding-bottom: 53%;
+    padding-bottom: 53.1%;
     position: relative;
 }
 
 main > section > article > .curse-html > .color-white > .html-modulo1 > iframe {
-    align-self: center;
+    border-radius: 30px;
 
     top: 4%;
     left: 4%;
@@ -234,6 +234,53 @@ main > section > article > .curse-html5 > .color-module2 > h3 {
 
 main > section > article > .curse-html5 > .color-module2 > p {
     color: black;
+}
+
+main > section > article > .curse-html5 > .color-module2 > .video-modulo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #0903A6;
+    margin: 0px -5px 0px -5px;
+    padding: 20px;
+    padding-bottom: 53.1%;
+    position: relative;
+}
+
+main > section > article > .curse-html5 > .color-module2 > .video-modulo2 > iframe {
+    align-self: center;
+    border-radius: 30px;
+
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    height: 91%;
+    width: 91%;
+
+}
+
+main > section > article > .curse-html > .video-modulo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #0903A6;
+    margin: 0px -0.2px 0px -0.2px;
+    padding: 20px;
+    padding-bottom: 52.5%;
+    position: relative;
+}
+
+main > section > article > .curse-html > .video-modulo3 > iframe {
+    border-radius: 30px;
+
+    top: 4%;
+    left: 4%;
+    position: absolute;
+    width: 91%;
+    height: 91%;
+
 }
 
 main > section > span#fundo-py {

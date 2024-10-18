@@ -64,8 +64,12 @@
 
             <span>
                 <picture>
-                    <source src="" type="">
-                    <img src="imagens/foto3.jpg" alt="">
+                    <source media="(max-width: 600px)" srcset="imagens/foto3-300x200.png" type="image/png">
+                    <source media="(max-width: 768px)" srcset="imagens/foto3-400x267.png" type="image/png">
+                    <source media="(max-width: 992px)" srcset="imagens/foto3-520x347.png" type="image/png">
+                    <source media="(max-width: 1200px)" srcset="imagens/foto3-670x446.png" type="image/png">
+
+                    <img src="imagens/foto3.jpg" alt="Imagem flexivel" style="border-radius: 25px; max-width: 800px;">
                 </picture>
             </span>
 
