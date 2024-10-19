@@ -283,20 +283,20 @@ main > section > article > .curse-html > .video-modulo3 > iframe {
 
 }
 
-main > section > article > .video-modulo4 {
+main > section > article > .curse-html2 > .video-modulo4 {
     display: flex;
     justify-content: center;
     align-items: center;
 
     background-color: #0903A6;
-    margin: 0px -1px 20px -1px;
+    margin: 0px 0px 20px 0px;
     
     padding: 20px;
     padding-bottom: 52.5%;
     position: relative;
 }
 
-main > section > article > .video-modulo4 > iframe {
+main > section > article > .curse-html2 > .video-modulo4 > iframe {
     border-radius: 30px;
 
     top: 4%;
