@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor01: #1D1073;
+    --cor02: #0903A6;
+    --cor03: #BBBFBA;
+    --cor04: #735449;
+    --cor05: #A67165;
+
+    --font01: "Bodoni Moda SC", serif;;
+    --font02: "Judson", serif;
+    --font03: "Jersey 10", sans-serif;
+    --font04: "Share Tech Mono", monospace;
+    
+}
+
 /*
 Pequenas Telas: até 600px;
 
@@ -11,15 +39,21 @@ Desktop: de 992 a 1200 px;
 
 Grandes Telas: Acima de 1200px;
 */
-
-@media screen and (max-width: 600px) {
-    main {
-        max-width: 450px;
-    }
-}
    
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
+@media screen and (min-width: 575px) and (max-width: 768px) {
+    header > h1 {
+        flex: 0 1 200px;
+        max-width: 280px;
+        font-size: 2.5em;
+    }
+
+    header > #foto {
+        margin-right: 10%;
+        flex: 1 1 500px;
+        min-width: 300px;
+        min-height: 300px;
+    }
     main {
         max-width: 570px;
     }

@@ -83,6 +83,7 @@ header > nav#itens > ul > li > a {
 }
 
 header > h1 {
+    flex: 1 0 300px;
     align-self: center;
     color: #d8d8b6ef;
     margin: auto;
@@ -100,6 +101,7 @@ header > h1:hover {
 }
 
 header > span#foto {
+    flex: 0 0 260px;
     border: 0.2px solid rgba(0, 0, 0, 0.507);
     box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.541);
     width: 250px;
