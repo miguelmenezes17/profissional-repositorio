@@ -78,6 +78,7 @@ header > nav > ul > li {
     text-align: center;
 }
 
+
 header > nav > ul > li:hover {
     background-color: #09003dc7;
     cursor: pointer;
@@ -93,6 +94,10 @@ header > nav > ul > li > i, a {
 header > nav > ul > li > a {
     text-decoration: none;
     color: white;
+}
+
+header > nav > ul > li > a:hover {
+    color: rgb(159, 99, 255);
 }
 
 /* AS CONFIGURAÇÕES ABAIXO SE REFEREM AO MAIN E SEUS ELEMENTOS FILHOS*/
@@ -117,18 +122,68 @@ ul > li > a {
 }
 
 main ul > li > a:hover {
-    color: blue;
+    color: rgb(161, 161, 204);
 }
 
 /* CONFIGURAÇÕES ABAIXO SE REFEREM AO SECTION CLASS GITHUB*/
 
 main > .secao-github {
-    min-height: 300px;
-    background-color: #0803a64d;
+    background-color: #3733af86;
+    min-height: 440px;
     padding: 15px;
-    margin: 10px -15px;
+    margin: 0px -15px;
 }
 
+main > .secao-github > aside {
+    background-image: linear-gradient(to left, #0803a64d, #040070bd);
+    text-decoration: 1px solid;
+    margin: -30px -15px 0px -15px;
+    padding: 25px;
+}
+
+main > .secao-github > aside  a {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    color: #dbdbdb;
+}
+
+main > .secao-github > aside i {
+    color: #dbdbdb;
+}
+
+main > .secao-github > aside li {
+    padding: 10px;
+}
+
+
+main > .secao-github > .foto {
+    background-image: url(../imagens/html-css.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 250px;
+
+    filter: grayscale(100%);
+    border: 1px solid black;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.295);
+    transition: 0.5s;
+}
+
+main > .secao-github > .foto:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+    width: 385px;
+    height: 265px;
+    transition: 0.5s ease-in-out;
+}
 
 
 
@@ -160,6 +215,8 @@ main > .secao-projeto-sao-bernardo {
     padding: 15px;
     margin: 10px -15px;
 }
+
+/* */
 
 footer {
     display: flex;
