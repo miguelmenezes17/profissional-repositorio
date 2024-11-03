@@ -166,12 +166,12 @@ main > .secao-github > .foto {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 370px;
-    height: 250px;
+    width: 350px;
+    height: 230px;
 
     filter: grayscale(100%);
     border: 1px solid black;
-    margin: 20px auto;
+    margin: 30px auto;
     border-radius: 15px;
     box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.295);
     transition: 0.5s;
@@ -180,8 +180,8 @@ main > .secao-github > .foto {
 main > .secao-github > .foto:hover {
     filter: grayscale(0%);
     cursor: pointer;
-    width: 385px;
-    height: 265px;
+    width: 365px;
+    height: 245px;
     transition: 0.5s ease-in-out;
 }
 
