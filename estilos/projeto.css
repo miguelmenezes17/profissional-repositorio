@@ -219,17 +219,15 @@ main > .secao-site-restaurante {
 
 }
 
-main > .secao-site-restaurante > 
-
 
 
 /* CONFIGURAÇÕES ABAIXO SE REFEREM AO SECTION CLASS PROJETO LOGIN*/
 
 main > .secao-projeto-login {
-    background-color: #0903A6;
-    min-height: 300px;    
-    padding: 15px;
-    margin: 10px -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
 
 }
 
@@ -239,9 +237,10 @@ main > .secao-projeto-login {
 
 
 main > .secao-projeto-sao-bernardo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
     min-height: 300px;
-    padding: 15px;
-    margin: 10px -15px;
 }
 
 /* */

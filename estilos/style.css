@@ -64,8 +64,6 @@ header >  nav#itens > ul > li {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom: 2px solid white;
-    flex-grow: 3;
-    flex-basis: 400;
     margin: 10px 10px auto 10px;
     
 }

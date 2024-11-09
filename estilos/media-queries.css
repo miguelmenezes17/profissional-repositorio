@@ -54,8 +54,23 @@ Grandes Telas: Acima de 1200px;
         min-width: 300px;
         min-height: 300px;
     }
+
+    header >  nav#itens > ul > li {
+        padding: 7px 25px;
+    }
+
     main {
         max-width: 570px;
+    }
+
+    main > section#img-first > article {
+        width: 350px;
+        box-shadow: 4px 2px 3px #0000005e;
+    }
+
+    main > section#img-second > article {
+        min-width: 350px;
+        box-shadow: 4px 2px 3px #0000005e;
     }
 }
 
