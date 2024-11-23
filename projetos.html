@@ -9,6 +9,7 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="estilos/projeto.css">
+    <link rel="stylesheet" href="estilos/projeto-queries.css">
 </head>
 
 <body>
@@ -43,23 +44,33 @@
             </span>
         </section>
 
-        <section id="fundo">
-
-        </section>
+        <section id="fundo"></section>
 
         <section class="secao-site-restaurante">
             <ul>
                 <li>
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
                     <a href="https://miguelmenezes17.github.io/site-restaurante/" target="_blank">Modelo Site
                         Restaurante!</a>
                 </li>
-
-                <span id="img-segundo"></span>
-
                 <li>
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
                     <a href="https://github.com/miguelmenezes17/site-restaurante" target="_blank">Repositório Github</a>
                 </li>
             </ul>
+
+            <span class="foto-restaurante">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="imagens/restaurante-400x212.png" type="image/png">
+                    <source media="(max-width: 768px)" srcset="imagens/restaurante-400x212.png" type="image/png">
+                    <source media="(max-width: 992px)" srcset="imagens/restaurante-520x275.png" type="image/png">
+                    <source media="(max-width: 1220px)" srcset="imagens/restaurante-670x355.png" type="image/png">
+
+                    <img src="imagens/restaurante-imagem.png" style="max-width: 800px; border-radius: 15px;"
+                        alt="Imagem Site Restaurante" title="Site Restaurante">
+                </picture>
+            </span>
+
         </section>
 
         <section class="secao-projeto-login">
