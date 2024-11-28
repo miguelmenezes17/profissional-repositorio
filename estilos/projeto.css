@@ -253,17 +253,20 @@ main > .secao-site-restaurante > .foto-restaurante {
     margin: 66px -15px 30px -15px;
     padding: 15px;
     border-radius: 0.8rem;
+    width: 350;
+    height: 230;
 }
 
 /* CONFIGURAÇÕES ABAIXO SE REFEREM AO SECTION CLASS PROJETO LOGIN*/
 
 main > .secao-projeto-login {
+    background-color: var(--cor01);
+    margin: -10px -15px;
     display: flex;
     align-items: center;
     justify-content: end;
     flex-flow: row nowrap;
-    min-height: 300px;
-
+    height: 500px;
 } 
 
 
