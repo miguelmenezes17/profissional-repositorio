@@ -361,7 +361,7 @@ section.quart > article > p {
 footer {
     background-color: var(--cor02);
     color: white;
-    margin: 1px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 30px;
 }
 

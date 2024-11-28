@@ -213,13 +213,14 @@ main > .secao-site-restaurante {
 }
 
 main > .secao-site-restaurante > ul {
-    background-image: linear-gradient(to left, var(--cor020), var(--cor01));
+    background-image: linear-gradient(to left, #0803a64d, #040070bd);
+    text-decoration: 1px solid;
+    margin: -15px -15px 0px -15px;
     height: 150px;
     display: flex;
     align-items: normal;
     justify-content: center;
     flex-flow: column nowrap;
-    border-radius: 15px;
     box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.342);
 }
 
@@ -259,10 +260,11 @@ main > .secao-site-restaurante > .foto-restaurante {
 main > .secao-projeto-login {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
+    flex-flow: row nowrap;
     min-height: 300px;
 
-}
+} 
 
 
 
