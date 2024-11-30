@@ -71,6 +71,8 @@ header > nav > ul {
 }
 
 header > nav > ul > li {
+    max-width: 300px;
+    margin: auto;
     padding: 10px;
     list-style-type: none;
     background-color: #010007;
@@ -263,14 +265,58 @@ main > .secao-projeto-login {
     background-color: var(--cor01);
     margin: -10px -15px;
     display: flex;
-    align-items: center;
-    justify-content: end;
-    flex-flow: row nowrap;
-    height: 500px;
-} 
+    align-items: end;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    height: 700px;
+}
 
+main > .secao-projeto-login > ul {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: end;
+    justify-content: space-between;
+    width: 480px;
+    background-image: linear-gradient(to left, var(--cor020), var(--cor01));
+    padding: 25px;
+    
+}
 
+main > .secao-projeto-login > ul > li {
+    padding: 15px;
+}
 
+main > .secao-projeto-login > ul > li > i {
+    color: white;
+}
+
+main > .secao-projeto-login > ul > li > a {
+    margin: 5px;
+    padding: 8px;
+    transition: 0.5s;
+    color: white;
+}
+
+main > .secao-projeto-login > ul > li > a:hover {
+    color: rgba(168, 168, 168, 0.808);
+    margin-right: 16px;
+}
+
+main > .secao-projeto-login > ul > li > #direita {
+    transform: rotate(180deg);
+}
+
+main > .secao-projeto-login > #imgquinto {
+    min-width: 350px;
+    min-height: 230px;
+    margin: auto;
+
+}
+
+main > .secao-projeto-login > #imgquinto > picture {
+    min-width: 350px;
+    min-height: 230px;
+}
 /* CONFIGURAÇÕES ABAIXO SE REFEREM AO SECTION CLASS PROJETO SÃO BERNARDO*/
 
 
