@@ -41,9 +41,10 @@ Desktop: de 992 a 1200 px;
 
 Grandes Telas: Acima de 1200px;
 */
+
 @media screen and (max-width: 575px) {
     main {
-        min-width: 430px;
+        width: 350px;
     }
 }
 
