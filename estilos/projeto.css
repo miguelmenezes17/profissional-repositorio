@@ -207,17 +207,20 @@ main > .secao-site-restaurante {
     padding: 15px;
     margin: 0px 0px 10px 0px;
     background-color: var(--cor020);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 main > .secao-site-restaurante > ul {
+    align-content: start;
     background-image: linear-gradient(to left, #0803a64d, #040070bd);
+    padding: 10px;
     text-decoration: 1px solid;
-    margin: -15px -15px 0px -15px;
+    margin: -102px -15px 0px -15px;
     height: 150px;
-    display: flex;
-    align-items: normal;
-    justify-content: center;
-    flex-flow: column nowrap;
+    min-width: 350px;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.342);
 }
 
@@ -247,7 +250,6 @@ main > .secao-site-restaurante > .foto-restaurante {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 66px auto 0px auto;
     padding: 15px;
     border-radius: 0.8rem;
     max-width: 350px;
@@ -301,25 +303,19 @@ main > .secao-projeto-login > ul > li > #direita {
 }
 
 main > .secao-projeto-login > #imgquinto {
-    min-width: 350px;
-    min-height: 230px;
     margin: auto;
-
 }
 
-main > .secao-projeto-login > #imgquinto > picture {
-    min-width: 350px;
-    min-height: 230px;
-}
 /* CONFIGURAÇÕES ABAIXO SE REFEREM AO SECTION CLASS PROJETO ANDROID*/
 
 
 main > .secao-android {
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     min-height: 180px;
     background-image: linear-gradient(to left, var(--cor020), var(--cor01));
+    margin: 0px 0px 0px 0px;
 }
 
 main > .secao-android > ul {
@@ -328,7 +324,7 @@ main > .secao-android > ul {
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    min-width: 430px;
+    min-width: 330px;
 }
 
 main > .secao-android > ul > li {
@@ -345,15 +341,15 @@ main > .secao-android > ul a:hover {
 
 /* */
 
-main > .img-android {
+main > .img-android > aside {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 750px;
     background-image: url(../imagens/android01.jpg);
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
 }
 

@@ -42,13 +42,14 @@ Desktop: de 992 a 1200 px;
 Grandes Telas: Acima de 1200px;
 */
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 500px) {
     main {
         width: 350px;
+        margin: auto;
     }
 }
 
-@media screen and (min-width: 575px) and (max-width: 768px) {
+@media screen and (min-width: 500px) and (max-width: 768px) {
     main {
         max-width: 570px;
     }
@@ -59,7 +60,7 @@ Grandes Telas: Acima de 1200px;
 
     main > .secao-projeto-login {
         background-color: var(--cor01);
-        margin: -10px -15px;
+        margin: -10px 0px 0px 0px;
         display: flex;
         align-items: end;
         justify-content: space-around;
@@ -79,12 +80,16 @@ Grandes Telas: Acima de 1200px;
 
     main > .secao-projeto-login {
         background-color: var(--cor01);
-        margin: -10px -15px;
+        margin: -10px 0px 0px 0px;
         display: flex;
         align-items: end;
         justify-content: space-around;
         flex-flow: column nowrap;
         height: 750px;
+    }
+
+    main > .secao-site-restaurante {
+        min-height: 680px;
     }
 }
 
@@ -99,7 +104,7 @@ Grandes Telas: Acima de 1200px;
 
     main > .secao-projeto-login {
         background-color: var(--cor01);
-        margin: -10px -15px;
+        margin: -10px 0px 0px 0px;
         display: flex;
         align-items: end;
         justify-content: space-around;
@@ -120,7 +125,7 @@ Grandes Telas: Acima de 1200px;
 
     main > .secao-projeto-login {
         background-color: var(--cor01);
-        margin: -10px 0px;
+        margin: -10px 0px 0px 0px;
         display: flex;
         align-items: end;
         justify-content: space-around;
