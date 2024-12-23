@@ -106,6 +106,7 @@ header > nav > ul > li > a:hover {
 main {
     background-color: white;
     margin: auto;
+    max-width: 450px;
 }
 
 ul > li {
