@@ -41,13 +41,24 @@ header {
     height: 680px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+}
+
+header > .imagem-header {
+    background-image: linear-gradient(to top, #0803a69f, #14085e);
+    height: 680px;
+    display: flex;
+    margin: auto;
+    flex-flow: row wrap;
 }
 
 header > nav#itens {
     display: flex;
     align-self: flex-end;
     flex-flow: row wrap;
+}
+
+header > nav.menu {
+    margin: 0px auto 0px auto;
 }
 
 header > nav#itens > ul {
@@ -81,7 +92,7 @@ header > nav#itens > ul > li > a {
 }
 
 header > h1 {
-    flex: 1 0 300px;
+    flex: 1 0 250px;
     align-self: center;
     color: #d8d8b6ef;
     margin: auto;
@@ -193,7 +204,7 @@ main > section#img-first > article {
     justify-content: center;
     flex-flow: column wrap;
     display: flex;
-    background-color: #1b869452;
+    background-color: #1b869433;
     padding: 30px;
     height: 450px;
     border-radius: 20px;

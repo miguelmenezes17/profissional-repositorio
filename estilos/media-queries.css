@@ -78,16 +78,106 @@ Grandes Telas: Acima de 1200px;
     main {
         max-width: 670px;
     }
+
+    header > #foto {
+        margin-right: 10%;
+        min-width: 310px;
+        min-height: 310px;
+    }
+
+    header >  nav#itens > ul > li {
+        padding: 7px 30px;
+    }
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     main {
         max-width: 770px;
     }
+
+    header > #foto {
+        margin-right: 120px;
+        min-width: 320px;
+        min-height: 320px;
+    }
+
+    header >  nav#itens {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    header > nav.menu {
+        margin: 0px auto 0px auto;
+    }
+
+    header >  nav#itens > ul > li {
+        padding: 7px 30px;
+    }
+    
 }
 
 @media screen and (min-width: 1200px) {
     main {
         max-width: max-content;
     }
+
+    header {
+        position: relative;
+        height: 690px;
+        flex: 1 0 300px;
+    }
+
+    header > h1 {
+        position: absolute;
+        margin-left: 15%;
+    }
+
+    header > #foto {
+        position: absolute;
+        margin-left: 50%;
+        min-width: 370px;
+        min-height: 370px;
+    }
+
+    header >  nav#itens {
+        display: flex;
+        margin: 0px auto;
+        flex-flow: row nowrap;
+    }
+
+    header >  nav#itens > ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 10px;
+        margin: 0px 12px;
+    }
+
+    header >  nav#itens > ul > li {
+        margin: 0px 20px;
+        padding: 5px 22px;
+    }
+
+    header > nav.menu {
+        margin: 0px auto 0px auto;
+    }
+    
+    main > section#img-first > article {
+        min-width: 500px;
+    }
+
+    main > section#img-first > article > h3 {
+        font-size: 4em;
+    }
+
+    main > section#img-first > article > i#down {
+        font-size: 4em;
+    }
+
+    main > section#img-first > article > i#up {
+        font-size: 4em;
+    }
+
+
 }
