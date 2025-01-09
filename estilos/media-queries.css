@@ -122,6 +122,15 @@ Grandes Telas: Acima de 1200px;
         max-width: max-content;
     }
 
+    main p {
+        margin: 11px auto;
+        line-height: 3em;
+        padding-top: 12px;
+        max-width: 63%;
+        text-align: justify;
+       
+    }
+
     header {
         position: relative;
         height: 690px;
@@ -168,16 +177,37 @@ Grandes Telas: Acima de 1200px;
     }
 
     main > section#img-first > article > h3 {
-        font-size: 4em;
+        font-size: 3.4em;
     }
 
     main > section#img-first > article > i#down {
-        font-size: 4em;
+        font-size: 3.4em;
     }
 
     main > section#img-first > article > i#up {
-        font-size: 4em;
+        font-size: 3.4em;
     }
 
+    main > section#img-second > article {
+        min-width: 500px;
+    }
+
+    main > section#img-second > article > h3 {
+        font-size: 3.4em;
+    }
+
+    main > section#img-second > article > i#down {
+        font-size: 3.4em;
+    }
+
+    main > section#img-secong > article > i#up {
+        font-size: 3.4em;
+    }
+
+    footer > #icon {
+        display: flex;
+        align-content: space-evenly;
+        justify-content: center;
+    }
 
 }
