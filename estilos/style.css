@@ -386,7 +386,7 @@ footer > #icon {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 footer > #icon a {
