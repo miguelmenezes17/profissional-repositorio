@@ -13,6 +13,12 @@ Grandes Telas: Acima de 1200px;
 */
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
+    header > nav {
+        margin: 0px auto 0px auto;
+        min-width: 300px;
+        padding: 10px;
+    }
+
     main {
         max-width: 570px;
     }
@@ -24,12 +30,24 @@ Grandes Telas: Acima de 1200px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    header > nav {
+        margin: 0px auto 0px auto;
+        min-width: 400px;
+        padding: 10px;
+    }
+
     main {
         max-width: 670px;
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+    header > nav {
+        margin: 0px auto 0px auto;
+        min-width: 500px;
+        padding: 10px;
+    }
+
     main {
         max-width: 770px;
     }
@@ -47,9 +65,43 @@ Grandes Telas: Acima de 1200px;
 }
 
 @media screen and (min-width: 1200px) {
-    main {
-        max-width: 970px;
+    header > nav {
+        margin: 0px auto 0px auto;
+        min-width: 500px;
+        padding: 10px;
     }
+    
+    main {
+        max-width: max-content;
+    }
+
+    main p {
+        margin: 0px auto;
+        text-align: justify;
+        max-width: 63%;
+    }
+
+    /*
+    CONFIGURAÇÕES DOS VIDEOS EM TELAS 
+    */
+
+    main > section > article > .curse-html > .color-white,
+    main > section > article > .curse-html5 > .color-module2,
+    main > section > article > .curse-html > .module3,
+    main > section > article > .curse-html3 > .module5{
+        width: 75%;
+        margin: 0px auto;
+        box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.212);
+    }
+
+    main > section > article > .curse-html2 > .video-modulo4 {
+        border-radius: 12px;
+        width: 80%;
+        margin: 0px auto;
+        box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.185);
+    }
+
+
 
     main > section > span#fundo-py {
         display: flex;

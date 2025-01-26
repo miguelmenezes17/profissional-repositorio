@@ -19,7 +19,7 @@
     --cor01: #1D1073;
     --cor010: #2209c4a6;
     --cor02: #0903A6;
-    --cor020: #2e2aaac0;
+    --cor020: #2e2aaad8;
     --cor03: #BBBFBA;
     --cor04: #735449;
     --cor05: #A67165;
@@ -66,7 +66,8 @@ header > h1:hover {
 }
 
 header > nav {
-    margin: 10px;
+    margin: 0px auto 0px auto;
+    min-width: 300px;
     padding: 10px;
 }
 
@@ -165,7 +166,7 @@ main > section > article > .curse-html > .color-white > .html-modulo1 {
     background-color: #0903A6;
     margin: 0px -5px 30px -5px;
     padding: 20px;
-    padding-bottom: 53.1%;
+    padding-bottom: 54.9%;
     position: relative;
 }
 
@@ -175,8 +176,8 @@ main > section > article > .curse-html > .color-white > .html-modulo1 > iframe {
     top: 4%;
     left: 4%;
     position: absolute;
-    width: 91%;
-    height: 91%;
+    width: 90%;
+    height: 90%;
 }
 
 main > section > article > .curse-html > .color-white > h3 {
