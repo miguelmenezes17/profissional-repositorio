@@ -160,35 +160,6 @@ main > .secao-github > aside li {
 }
 
 
-main > .secao-github > .foto {
-    background-image: url(../imagens/html-css.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 350px;
-    height: 230px;
-
-    filter: grayscale(100%);
-    border: 1px solid black;
-    margin: 30px auto;
-    border-radius: 15px;
-    box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.295);
-    transition: 0.5s;
-}
-
-main > .secao-github > .foto:hover {
-    filter: grayscale(0%);
-    cursor: pointer;
-    max-width: 365px;
-    height: 245px;
-    transition: 0.5s ease-in-out;
-}
-
-
 /* FUNDO IMAGEM*/
 
 #fundo {
@@ -204,76 +175,59 @@ main > .secao-github > .foto:hover {
 /* CONFIGURAÇÕES ABAIXO SE REFEREM AO SECTION CLASS SITE RESTAURANTE*/
 
 main > .secao-site-restaurante {
-    min-height: 570px;
-    padding: 15px;
-    margin: 0px 0px 10px 0px;
+    min-height: 440px;
+    margin: 0px 0px;
+    padding: 0px 15px;
     background-color: var(--cor020);
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
-main > .secao-site-restaurante > ul {
+main > .secao-site-restaurante > aside > ul {
     align-content: start;
     background-image: linear-gradient(to left, #0803a64d, #040070bd);
     padding: 10px;
     text-decoration: 1px solid;
-    margin: -102px -15px 0px -15px;
-    height: 150px;
+    margin: 0px -15px 0px -15px;
     min-width: 350px;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.342);
 }
 
-main > .secao-site-restaurante > ul > li {
+main > .secao-site-restaurante > aside > ul > li {
     margin: 5px 10px;
     padding: 12px;
 }
 
-main > .secao-site-restaurante > ul > li i {
+main > .secao-site-restaurante > aside > ul > li i {
     color: white;
 }
 
-main > .secao-site-restaurante > ul > li a {
+main > .secao-site-restaurante > aside > ul > li a {
     margin: 5px;
     padding: 8px;
     transition: 0.5s;
     color: white;
 }
 
-main > .secao-site-restaurante > ul > li a:hover {
+main > .secao-site-restaurante > aside > ul > li a:hover {
     margin-left: 20px;
     transition-duration: 1.1s ease-in-out;
     color: rgba(194, 194, 194, 0.767);
 }
 
-main > .secao-site-restaurante > .foto-restaurante {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    border-radius: 0.8rem;
-    max-width: 350px;
-    height: 230px;
-}
-
 /* CONFIGURAÇÕES ABAIXO SE REFEREM AO SECTION CLASS PROJETO LOGIN*/
 
 main > .secao-projeto-login {
-    background-color: var(--cor01);
-    margin: -10px 0px 0px 0px;
-    display: flex;
-    align-items: end;
-    justify-content: space-around;
-    flex-flow: column nowrap;
     height: 600px;
+    background-color: var(--cor01);
+    margin: 0px;
+    flex-flow: column nowrap;
+    
 }
 
 main > .secao-projeto-login > ul {
     display: flex;
     flex-flow: column nowrap;
     align-items: end;
-    justify-content: space-between;
+    justify-content: start;
     background-image: linear-gradient(to left, var(--cor020), var(--cor01));
     padding: 25px;
     
@@ -313,8 +267,8 @@ main > .secao-projeto-login > #imgquinto {
 main > .secao-android {
     display: flex;
     align-items: center;
-    justify-content: center;
-    min-height: 180px;
+    justify-content: start;
+    min-height: 480px;
     background-image: linear-gradient(to left, var(--cor020), var(--cor01));
     margin: 0px 0px 0px 0px;
 }
@@ -323,7 +277,6 @@ main > .secao-android > ul {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: space-between;
     margin: auto;
     min-width: 330px;
 }
