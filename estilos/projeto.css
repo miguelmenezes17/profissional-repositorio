@@ -159,7 +159,28 @@ main > .secao-github > aside li {
     padding: 10px;
 }
 
+main > .secao-github > div.curso {
+    margin-top: 30px;
+    align-self: center;
+}
 
+main > .secao-github > div.curso > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > .secao-github > div.curso > a > img {
+    border-radius: 16px;
+    filter: grayscale(100%);
+    transition: 1s;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.425);
+}
+
+main > .secao-github > div.curso > a > img:hover {
+    filter: grayscale(0%);
+    transition: 0.5s ease-in-out;
+}
 /* FUNDO IMAGEM*/
 
 #fundo {
@@ -175,7 +196,7 @@ main > .secao-github > aside li {
 /* CONFIGURAÇÕES ABAIXO SE REFEREM AO SECTION CLASS SITE RESTAURANTE*/
 
 main > .secao-site-restaurante {
-    min-height: 440px;
+    min-height: 500px;
     margin: 0px 0px;
     padding: 0px 15px;
     background-color: var(--cor020);
@@ -213,13 +234,32 @@ main > .secao-site-restaurante > aside > ul > li a:hover {
     color: rgba(194, 194, 194, 0.767);
 }
 
+main > .secao-site-restaurante > .rest > a {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main > .secao-site-restaurante > .rest > a > img {
+    border-radius: 16px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.425);
+}
+
+main > .secao-site-restaurante > .rest > a > img:hover {
+    filter: grayscale(0%);
+    transition: 0.5s ease-in-out;
+}
+
 /* CONFIGURAÇÕES ABAIXO SE REFEREM AO SECTION CLASS PROJETO LOGIN*/
 
 main > .secao-projeto-login {
     height: 600px;
     background-color: var(--cor01);
     margin: 0px;
-    flex-flow: column nowrap;
     
 }
 
@@ -261,6 +301,25 @@ main > .secao-projeto-login > #imgquinto {
     margin: auto;
 }
 
+main > .secao-projeto-login > .log > a {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main > .secao-projeto-login > .log > a > img {
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.425);
+    border-radius: 16px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+main > .secao-projeto-login > .log > a > img:hover {
+    filter: grayscale(0%);
+    transition: 0.5s ease-in-out;
+}
 /* CONFIGURAÇÕES ABAIXO SE REFEREM AO SECTION CLASS PROJETO ANDROID*/
 
 

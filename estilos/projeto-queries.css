@@ -62,7 +62,6 @@ Grandes Telas: Acima de 1200px;
         background-color: var(--cor01);
         margin: -10px 0px 0px 0px;
         display: flex;
-        align-items: end;
         justify-content: start;
         flex-flow: column nowrap;
         height: 620px;
