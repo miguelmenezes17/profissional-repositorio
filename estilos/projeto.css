@@ -320,6 +320,7 @@ main > .secao-projeto-login > .log > a > img:hover {
     filter: grayscale(0%);
     transition: 0.5s ease-in-out;
 }
+
 /* CONFIGURAÇÕES ABAIXO SE REFEREM AO SECTION CLASS PROJETO ANDROID*/
 
 
@@ -335,21 +336,28 @@ main > .secao-android {
 main > .secao-android > ul {
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
-    margin: auto;
+    align-items: start;
     min-width: 330px;
+    margin-left: 30px;
 }
 
 main > .secao-android > ul > li {
     padding: 10px;
 }
 
-main > .secao-android > ul a {
+main > .secao-android > ul > li > i {
     color: white;
+}
+main > .secao-android > ul a {
+    margin: 5px;
+    padding: 8px;
+    color: white;
+    transition: 0.5s;
 }
 
 main > .secao-android > ul a:hover {
     color: rgba(168, 168, 168, 0.808);
+    margin-left: 16px;
 }
 
 /* */
@@ -359,19 +367,21 @@ main > .img-android > aside {
     align-items: center;
     justify-content: center;
     min-height: 750px;
-    background-image: url(../imagens/android01.jpg);
-    background-position: center top;
+    background-image: url(../imagens/dandroid.jpg);
+    background-position: right center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
 }
 
 main > .texto {
+    background-image: linear-gradient(to left, var(--cor020), var(--cor01));
+    color: white;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     text-align: center;
-    line-height: 20px;
+    line-height: 25px;
     min-height: 200px;
     padding: 20px;
 }

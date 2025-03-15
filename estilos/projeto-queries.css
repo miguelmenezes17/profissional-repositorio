@@ -113,13 +113,12 @@ Grandes Telas: Acima de 1200px;
 }
 
 @media screen and (min-width: 1200px) {
-    header > nav > ul > li {
-        max-width: 500px;
+    main {
+        max-width: max-content;
     }
 
-    main {
-        min-width: min-content;
-        margin: none;
+    header > nav > ul > li {
+        max-width: 500px;
     }
 
     main > .secao-projeto-login {
