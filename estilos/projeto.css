@@ -104,7 +104,7 @@ header > nav > ul > li > a:hover {
 /* AS CONFIGURAÇÕES ABAIXO SE REFEREM AO MAIN E SEUS ELEMENTOS FILHOS*/
 
 main {
-    background-color: white;
+    background-color: #040231d6;
     margin: auto;
     max-width: 450px;
 }

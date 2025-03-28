@@ -107,12 +107,12 @@ header > nav > ul > li > a:hover {
 
 main {
     margin: auto;
-    background-color: var(--cor020);
+    background-color: #040231d6;
 }
 
 main a {
     color: #faa509;
-    background-color: #3416f7b7;
+    background-color: #221480be;
     padding: 2px;
     border-radius: 6px;
 }
