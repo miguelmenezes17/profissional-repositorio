@@ -49,13 +49,13 @@ Grandes Telas: Acima de 1200px;
     }
 
     header > #foto {
-        margin-right: 10%;
+        margin: auto;
         flex: 1 1 500px;
-        min-width: 300px;
-        min-height: 300px;
+        min-width: 250px;
+        min-height: 250px;
     }
 
-    header >  nav#itens > ul > li {
+    header > .menu-container > nav#itens > ul > li {
         padding: 7px 25px;
     }
 
@@ -80,12 +80,12 @@ Grandes Telas: Acima de 1200px;
     }
 
     header > #foto {
-        margin-right: 10%;
+        margin: auto;
         min-width: 310px;
         min-height: 310px;
     }
 
-    header >  nav#itens > ul > li {
+    header > .menu-container > nav#itens > ul > li {
         padding: 7px 30px;
     }
 
@@ -97,12 +97,16 @@ Grandes Telas: Acima de 1200px;
     }
 
     header > #foto {
-        margin-right: 120px;
+        margin-right: 1s20px;
         min-width: 320px;
         min-height: 320px;
     }
 
-    header >  nav#itens {
+    header > .menu-container {
+        margin: 0px auto;
+    }
+
+    header > .menu-container > nav#itens {
         display: flex;
         flex-flow: row wrap;
     }
@@ -165,7 +169,7 @@ Grandes Telas: Acima de 1200px;
 
     header >  nav#itens > ul > li {
         margin: 0px 20px;
-        padding: 5px 22px;
+        padding: 5px px;
     }
 
     header > nav.menu {

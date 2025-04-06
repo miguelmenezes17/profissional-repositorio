@@ -51,23 +51,31 @@ header > .imagem-header {
     flex-flow: row wrap;
 }
 
-header > nav#itens {
+header > .menu-container {
+    margin: 0px auto;
+    align-self: flex-end;
+}
+
+header > .menu-container > nav#itens {
     display: flex;
     align-self: flex-end;
     flex-flow: row wrap;
+    
 }
 
-header > nav.menu {
+header > .menu-container > nav.menu {
     margin: 0px auto 0px auto;
+    
 }
 
-header > nav#itens > ul {
+header > .menu-container > nav#itens > ul {
     display: flex;
     flex-flow: row wrap;
-    list-style-type: none;     
+    list-style-type: none;
+         
 }
 
-header >  nav#itens > ul > li {
+header > .menu-container > nav#itens > ul > li {
     display: flex;
     background-color: var(--cor02);
     padding: 6px 14px;
@@ -79,14 +87,14 @@ header >  nav#itens > ul > li {
     
 }
 
-header >  nav#itens > ul > li:hover {
+header > .menu-container >  nav#itens > ul > li:hover {
     background-color: #39368d;
     border-bottom: 2px solid rgb(32, 38, 88);
     transition: 0.6s ease;
     transition-duration: 0.6s;
 }
 
-header > nav#itens > ul > li > a {
+header > .menu-container > nav#itens > ul > li > a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }

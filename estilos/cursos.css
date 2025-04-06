@@ -100,9 +100,7 @@ header > nav > ul > li > a:hover {
     text-decoration: 2px underline rgba(255, 255, 255, 0.712);
     color: yellow;
     transition: ease 1s;
-    transition-duration: 0.8s;
-
-    
+    transition-duration: 0.8s;    
 }
 
 main {

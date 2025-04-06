@@ -12,6 +12,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    max-width: 100vw;
 }
 
 :root {
@@ -95,10 +96,14 @@ header > nav > ul > li > i, a {
 header > nav > ul > li > a {
     text-decoration: none;
     color: white;
+    text-decoration: none;
+    transition: 1s;
 }
 
 header > nav > ul > li > a:hover {
-    color: rgb(159, 99, 255);
+    color: #9f63ff;
+    transition-duration: 1s;
+    text-decoration: 1px solid underline #9f63ff;
 }
 
 /* AS CONFIGURAÇÕES ABAIXO SE REFEREM AO MAIN E SEUS ELEMENTOS FILHOS*/
@@ -106,7 +111,6 @@ header > nav > ul > li > a:hover {
 main {
     background-color: #040231d6;
     margin: auto;
-    max-width: 450px;
 }
 
 ul > li {
@@ -120,7 +124,7 @@ ul > li > a {
 }
 
 main ul > li > a:hover {
-    color: #a1a1cc;
+    color: #a1a1cc
 }
 
 /* CONFIGURAÇÕES ABAIXO SE REFEREM AO SECTION CLASS GITHUB*/
