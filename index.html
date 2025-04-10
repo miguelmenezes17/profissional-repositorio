@@ -8,23 +8,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-queries.css">
     <link rel="shortcut icon" href="Logo.ico" type="image/x-icon">
 </head>
 
-<body>
+<body onresize="mudarTamanho()">
     <header>
         <h1>Seja bem-vindo ao site do meu portfólio!</h1>
         <span id="foto" class="imagem-header"></span>
-        <div class="menu-container">
-            <nav id="itens" class="menu">
+        <div id="burguer">
+            <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">Menu</span>
+            <menu id="itens" class="menu">
                 <ul>
                     <li><a href="https://github.com/miguelmenezes17" target="_blank">Github</a></li>
                     <li><a href="cursos.html">Cursos Feitos</a></li>
                     <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="#">Projetos</a></li>
                 </ul>
-            </nav>
+            </menu>
         </div>
     </header>
     <main>

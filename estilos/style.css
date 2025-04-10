@@ -38,75 +38,89 @@ body {
 
 header {
     background-image: linear-gradient(to top, #0803a69f, #14085e);
-    height: 680px;
+    height: 800px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
 }
 
 header > .imagem-header {
     background-image: linear-gradient(to top, #0803a69f, #14085e);
     height: 680px;
-    display: flex;
-    margin: auto;
+
     flex-flow: row wrap;
 }
 
-header > .menu-container {
-    margin: 0px auto;
-    align-self: flex-end;
+header > #burguer {
+    margin: 12% auto 0px;
+    align-self: auto;
 }
 
-header > .menu-container > nav#itens {
+header > #burguer > #burguer {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    margin: 0px 12px 0px 12px;
+
+}
+
+header > #burguer > #burguer:hover {
+    color: rgb(241, 255, 52);
+}
+
+header > #burguer > #itens {
     display: flex;
     align-self: flex-end;
     flex-flow: row wrap;
     
 }
 
-header > .menu-container > nav.menu {
+header > #burguer > .menu {
     margin: 0px auto 0px auto;
     
 }
 
-header > .menu-container > nav#itens > ul {
+header > #burguer > #itens > ul {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     list-style-type: none;
          
 }
 
-header > .menu-container > nav#itens > ul > li {
+header > #burguer > #itens > ul > li {
     display: flex;
     background-color: var(--cor02);
-    padding: 6px 14px;
-    flex-flow: row wrap;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom: 2px solid white;
-    margin: 10px 10px auto 10px;
-    
+    padding: 7px 30px;
+    flex-flow: row nowrap;
+    border: 1px solid rgb(35, 49, 255);
+    border-radius: 18px;
+    margin: 8px 14px auto 14px; 
 }
 
-header > .menu-container >  nav#itens > ul > li:hover {
+header > #burguer >  #itens > ul > li:hover {
     background-color: #39368d;
     border-bottom: 2px solid rgb(32, 38, 88);
     transition: 0.6s ease;
     transition-duration: 0.6s;
 }
 
-header > .menu-container > nav#itens > ul > li > a {
+header > #burguer > #itens > ul > li > a {
+    margin: auto;
+    display: block;
+    padding: 6px;
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 header > h1 {
-    flex: 1 0 250px;
+    flex: 0 1 200px;
     align-self: center;
     color: #d8d8b6ef;
-    margin: auto;
+    margin: 20px auto;
     text-align: center;
-    padding: 20px 15px 10px 15px;
-    max-width: 300px;
+    padding: 0px 15px 0px 15px;
+    max-width: 250px;
     font-size: 2.4em;
     font-family: var(--font03);
     text-shadow: 3px 2px 3px black;
@@ -118,11 +132,11 @@ header > h1:hover {
 }
 
 header > span#foto {
-    flex: 0 0 260px;
+    flex: 0 0 230px;
     border: 0.2px solid rgba(0, 0, 0, 0.507);
     box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.541);
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
     background-image: url(../imagens/minhafoto.jpg);
     background-position: center center;

@@ -43,7 +43,7 @@ Grandes Telas: Acima de 1200px;
 
 @media screen and (min-width: 575px) and (max-width: 768px) {
     header > h1 {
-        flex: 0 1 200px;
+        flex: 1 1 200px;
         max-width: 280px;
         font-size: 2.5em;
     }
@@ -55,7 +55,7 @@ Grandes Telas: Acima de 1200px;
         min-height: 250px;
     }
 
-    header > .menu-container > nav#itens > ul > li {
+    header > #burguer > #itens > ul > li {
         padding: 7px 25px;
     }
 
@@ -85,7 +85,7 @@ Grandes Telas: Acima de 1200px;
         min-height: 310px;
     }
 
-    header > .menu-container > nav#itens > ul > li {
+    header > #burguer > #itens > ul > li {
         padding: 7px 30px;
     }
 
@@ -102,20 +102,20 @@ Grandes Telas: Acima de 1200px;
         min-height: 320px;
     }
 
-    header > .menu-container {
+    header > #burguer {
         margin: 0px auto;
     }
 
-    header > .menu-container > nav#itens {
+    header > #burguer > #itens {
         display: flex;
         flex-flow: row wrap;
     }
 
-    header > nav.menu {
+    header > .menu {
         margin: 0px auto 0px auto;
     }
 
-    header >  nav#itens > ul > li {
+    header >  #itens > ul > li {
         padding: 7px 30px;
     }
     
@@ -153,13 +153,13 @@ Grandes Telas: Acima de 1200px;
         min-height: 370px;
     }
 
-    header >  nav#itens {
+    header >  #itens {
         display: flex;
         margin: 0px auto;
         flex-flow: row nowrap;
     }
 
-    header >  nav#itens > ul {
+    header >  #itens > ul {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -167,12 +167,12 @@ Grandes Telas: Acima de 1200px;
         margin: 0px 12px;
     }
 
-    header >  nav#itens > ul > li {
+    header >  #itens > ul > li {
         margin: 0px 20px;
         padding: 5px px;
     }
 
-    header > nav.menu {
+    header > .menu {
         margin: 0px auto 0px auto;
     }
     
