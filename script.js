@@ -10,8 +10,13 @@ function mudouTamanho() {
 function clickMenu() {
     if (itens.style.display == 'block') {
         itens.style.display = 'none'
-    }
-    else {
+    } else {
         itens.style.display = 'block'
+    }
+
+    if (tag.style.display == 'block') {
+        tag.style.display = 'none'
+    } else {
+        tag.style.display = 'block'
     }
 }

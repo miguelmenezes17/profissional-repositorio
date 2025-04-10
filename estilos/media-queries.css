@@ -55,7 +55,7 @@ Grandes Telas: Acima de 1200px;
         min-height: 250px;
     }
 
-    header > #burguer > #itens > ul > li {
+    header > #b-menu > #itens > ul > li {
         padding: 7px 25px;
     }
 
@@ -85,7 +85,7 @@ Grandes Telas: Acima de 1200px;
         min-height: 310px;
     }
 
-    header > #burguer > #itens > ul > li {
+    header > #b-menu > #itens > ul > li {
         padding: 7px 30px;
     }
 
@@ -102,16 +102,16 @@ Grandes Telas: Acima de 1200px;
         min-height: 320px;
     }
 
-    header > #burguer {
+    header > #b-menu {
         margin: 0px auto;
     }
 
-    header > #burguer > #itens {
+    header > #b-menu > #itens {
         display: flex;
         flex-flow: row wrap;
     }
 
-    header > .menu {
+    header > #itens {
         margin: 0px auto 0px auto;
     }
 
@@ -172,7 +172,7 @@ Grandes Telas: Acima de 1200px;
         padding: 5px px;
     }
 
-    header > .menu {
+    header > #itens {
         margin: 0px auto 0px auto;
     }
     
