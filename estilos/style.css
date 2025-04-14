@@ -62,8 +62,6 @@ header > #b-menu > #burguer {
     display: block;
     cursor: pointer;
     margin: 0px 12px 0px 12px;
-    position: relative;
-    transition: .3s cubic-bezier(.25,.8,.5,1);
 }
 
 
@@ -71,44 +69,32 @@ header > #b-menu > #burguer:hover {
     color: rgb(241, 255, 52);
 }
 
-
-header > #b-menu > #itens {
-    display: flex;
-    align-self: flex-end;
-    flex-flow: row wrap;
-    
-}
-
-header > #b-menu > #itens {
-    margin: 0px auto 0px auto;
-    
-}
-
-header > #b-menu > #itens > ul {
-    display: none;
+header > #b-menu > ul {
     flex-flow: column wrap;
     list-style-type: none;
+    align-self: flex-end;
+    flex-flow: row wrap;
+    margin: 0px auto 0px auto;
          
 }
 
-header > #b-menu > #itens > ul > li {
+header > #b-menu > ul > li {
     display: flex;
     background-color: var(--cor02);
-    padding: 7px 30px;
+    padding: 4px 30px;
     flex-flow: row nowrap;
-    border: 1px solid rgb(35, 49, 255);
-    border-radius: 18px;
-    margin: 8px 14px auto 14px; 
+    border: 1px solid #2331ff;
+    border-radius: 15px;
+    margin: 8px 12px auto 12px; 
 }
 
-header > #b-menu >  #itens > ul > li:hover {
-    background-color: #39368d;
-    border-bottom: 2px solid rgb(32, 38, 88);
+header > #b-menu > ul > li:hover {
+    background-color: #240fe0;
     transition: 0.6s ease;
     transition-duration: 0.6s;
 }
 
-header > #b-menu > #itens > ul > li > a {
+header > #b-menu > ul > li > a {
     margin: auto;
     display: block;
     padding: 6px;

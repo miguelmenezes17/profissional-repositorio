@@ -43,19 +43,33 @@ Grandes Telas: Acima de 1200px;
 
 @media screen and (min-width: 575px) and (max-width: 768px) {
     header > h1 {
-        flex: 1 1 200px;
-        max-width: 280px;
+        flex: 0 1 200px;
+        padding: 4px 0px 27px 0px;
+        width: 280px;
         font-size: 2.5em;
     }
 
     header > #foto {
-        margin: auto;
-        flex: 1 1 500px;
-        min-width: 250px;
-        min-height: 250px;
+        flex: 0 0 260px;
+        border: 0.2px solid rgba(0, 0, 0, 0.507);
+        box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.541);
+        width: 260px;
+        height: 240px;
+        border-radius: 50%;
+        background-image: url(../imagens/minhafoto.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-self: center;
     }
 
-    header > #b-menu > #itens > ul > li {
+    header > #b-menu {
+        flex: 0 0 200px;
+        margin: 15% auto;
+        align-self: auto;
+    }
+
+    header > #b-menu > ul > li {
         padding: 7px 25px;
     }
 
@@ -74,6 +88,20 @@ Grandes Telas: Acima de 1200px;
     }
 }
 
+@media screen and (min-width: 768px) {
+    header > #b-menu > #burguer {
+        display: none;
+    }
+
+    header > #b-menu > ul {
+        display: block;
+    }
+
+    header > #b-menu > ul > li {
+        display: inline-block;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     main {
         max-width: 670px;
@@ -81,11 +109,15 @@ Grandes Telas: Acima de 1200px;
 
     header > #foto {
         margin: auto;
-        min-width: 310px;
-        min-height: 310px;
+        min-width: 280px;
+        min-height: 280px;
     }
 
-    header > #b-menu > #itens > ul > li {
+    header > #b-menu {
+        margin-bottom: 10px;
+    }
+
+    header > #b-menu > ul > li {
         padding: 7px 30px;
     }
 
@@ -97,18 +129,20 @@ Grandes Telas: Acima de 1200px;
     }
 
     header > #foto {
-        margin-right: 1s20px;
+        margin-right: 20px;
         min-width: 320px;
         min-height: 320px;
     }
 
     header > #b-menu {
-        margin: 0px auto;
+        margin: 18% auto 18% auto;
     }
 
-    header > #b-menu > #itens {
-        display: flex;
+    header > #b-menu > #itens > ul {
         flex-flow: row wrap;
+    }
+    header > #b-menu > #itens > ul > li {
+        border-radius: 10px;
     }
 
     header > #itens {
@@ -118,7 +152,6 @@ Grandes Telas: Acima de 1200px;
     header >  #itens > ul > li {
         padding: 7px 30px;
     }
-    
 }
 
 @media screen and (min-width: 1200px) {
@@ -136,21 +169,30 @@ Grandes Telas: Acima de 1200px;
     }
 
     header {
-        position: relative;
         height: 690px;
         flex: 1 0 300px;
+        flex-flow: column nowrap;
+    }
+
+    header > #b-menu > #itens > ul > li {
+        border-radius: 10px;
+        
     }
 
     header > h1 {
-        position: absolute;
-        margin-left: 15%;
+        flex: 1 0 150px;
+        margin: 20px auto;
     }
 
     header > #foto {
-        position: absolute;
-        margin-left: 50%;
-        min-width: 370px;
-        min-height: 370px;
+        flex: 1 0 200px;
+        min-width: 330px;
+        min-height: 330px;
+    }
+
+    header > #b-menu {
+        flex: 1 0 200px;
+        margin: 6% auto;
     }
 
     header >  #itens {
@@ -159,7 +201,7 @@ Grandes Telas: Acima de 1200px;
         flex-flow: row nowrap;
     }
 
-    header >  #itens > ul {
+    header >  #itens  {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -169,7 +211,7 @@ Grandes Telas: Acima de 1200px;
 
     header >  #itens > ul > li {
         margin: 0px 20px;
-        padding: 5px px;
+        padding: 5px;
     }
 
     header > #itens {
