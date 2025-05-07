@@ -117,6 +117,26 @@ Grandes Telas: Acima de 1200px;
         max-width: 500px;
     }
 
+    main > .secao-github > aside i {
+        display: none;
+    }
+
+    main > .secao-github > aside > ul > li {
+        display: flex;
+        justify-content: center;
+        transition: none;
+    }
+
+    main > .secao-github > aside > ul > li > a {
+        transition: none;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    main > .secao-github > aside > ul > li > a:hover {
+        margin-left: 0px;
+    }
+
     main > .secao-projeto-login {
         background-color: var(--cor01);
         margin: -10px 0px 0px 0px;
