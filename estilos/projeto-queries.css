@@ -23,11 +23,12 @@
     --cor04: #735449;
     --cor05: #A67165;
 
-    --font01: "Bodoni Moda SC", serif;;
+    --font01: "Bodoni Moda SC", serif;
+    ;
     --font02: "Judson", serif;
     --font03: "Jersey 10", sans-serif;
     --font04: "Share Tech Mono", monospace;
-    
+
 }
 
 /*
@@ -47,6 +48,25 @@ Grandes Telas: Acima de 1200px;
         max-width: 450px;
         margin: auto;
     }
+
+    main>.secao-github>aside a {
+        margin: 5px;
+        padding: 8px;
+        color: #dbdbdb;
+        transition: 0.5s;
+    }
+
+    main>.secao-github>aside a:hover {
+        margin-left: 20px;
+        transition: 0.5s ease-in-out;
+    }
+
+    main>.secao-github>.image>div.curso>a {
+        display: flexbox;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 500px) and (max-width: 768px) {
@@ -54,11 +74,11 @@ Grandes Telas: Acima de 1200px;
         max-width: 570px;
     }
 
-    header > nav > ul > li {
+    header>nav>ul>li {
         max-width: 400px;
     }
 
-    main > .secao-projeto-login {
+    main>.secao-projeto-login {
         background-color: var(--cor01);
         margin: -10px 0px 0px 0px;
         display: flex;
@@ -66,6 +86,27 @@ Grandes Telas: Acima de 1200px;
         flex-flow: column nowrap;
         height: 620px;
     }
+
+    main>.secao-github>aside a {
+        margin: 5px;
+        padding: 8px;
+        color: #dbdbdb;
+        transition: 0.5s;
+    }
+
+    main>.secao-github>aside a:hover {
+        margin-left: 20px;
+        transition: 0.5s ease-in-out;
+    }
+
+    main>.secao-github>.image>div.curso>a {
+        display: flexbox;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -73,11 +114,11 @@ Grandes Telas: Acima de 1200px;
         max-width: 670px;
     }
 
-    header > nav > ul > li {
+    header>nav>ul>li {
         max-width: 420px;
     }
 
-    main > .secao-projeto-login {
+    main>.secao-projeto-login {
         background-color: var(--cor01);
         margin: -10px 0px 0px 0px;
         display: flex;
@@ -87,8 +128,27 @@ Grandes Telas: Acima de 1200px;
         height: 750px;
     }
 
-    main > .secao-site-restaurante {
+    main>.secao-site-restaurante {
         min-height: 680px;
+    }
+
+    main>.secao-github>aside a {
+        margin: 5px;
+        padding: 8px;
+        color: #dbdbdb;
+        transition: 0.5s;
+    }
+
+    main>.secao-github>aside a:hover {
+        margin-left: 20px;
+        transition: 0.5s ease-in-out;
+    }
+
+    main>.secao-github>.image>div.curso>a {
+        display: flexbox;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -97,11 +157,11 @@ Grandes Telas: Acima de 1200px;
         max-width: 770px;
     }
 
-    header > nav > ul > li {
+    header>nav>ul>li {
         max-width: 450px;
     }
 
-    main > .secao-projeto-login {
+    main>.secao-projeto-login {
         background-color: var(--cor01);
         margin: -10px 0px 0px 0px;
         display: flex;
@@ -110,34 +170,85 @@ Grandes Telas: Acima de 1200px;
         flex-flow: column nowrap;
         height: 790px;
     }
+
+    main>.secao-github>aside a {
+        margin: 5px;
+        padding: 8px;
+        color: #dbdbdb;
+        transition: 0.5s;
+    }
+
+    main>.secao-github>aside a:hover {
+        margin-left: 20px;
+        transition: 0.5s ease-in-out;
+    }
+
+    main>.secao-github>.image>div.curso>a {
+        display: flexbox;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-    header > nav > ul > li {
+    header>nav>ul>li {
         max-width: 500px;
     }
 
-    main > .secao-github > aside i {
+    header>nav>ul>li>a {
+        transition: 0.6s;
+    }
+
+    header>nav>ul>li>a:hover {
+        transition: 0.8s ease-in-out;
+        font-size: 18px;
+    }
+
+    main>.secao-github>aside {
+
+        max-height: 150px;
+    }
+
+    main>.secao-github>aside i {
         display: none;
     }
 
-    main > .secao-github > aside > ul > li {
+    main>.secao-github>aside>ul>li {
         display: flex;
         justify-content: center;
         transition: none;
     }
 
-    main > .secao-github > aside > ul > li > a {
-        transition: none;
-        margin: 0px;
-        padding: 10px;
+    main>.secao-github>aside>ul>li>a {
+        color: white;
+        transition: 0.4s ease;
     }
 
-    main > .secao-github > aside > ul > li > a:hover {
-        margin-left: 0px;
+    main>.secao-github>aside>ul>li>a:hover {
+        color: rgba(190, 190, 190, 0.801);
+        font-size: 20px;
+        transition: 0.4s ease;
     }
 
-    main > .secao-projeto-login {
+    main>.secao-github>.curso {
+        flex: 1 1 100px;
+    }
+
+    main>.secao-github>.curso a {
+        width: 400px;
+    }
+
+    main>.secao-github>.image {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    main>.secao-github>.image>div.curso>a>img {
+        width: 560px;
+    }
+
+    main>.secao-projeto-login {
         background-color: var(--cor01);
         margin: -10px 0px 0px 0px;
         display: flex;
@@ -146,4 +257,5 @@ Grandes Telas: Acima de 1200px;
         flex-flow: column nowrap;
         height: 880px;
     }
+
 }
