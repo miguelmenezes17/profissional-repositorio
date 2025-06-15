@@ -62,15 +62,21 @@ Grandes Telas: Acima de 1200px;
     }
 
     main>.secao-github>.image>div.curso>a {
-        display: flexbox;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
+    main>.secao-site-restaurante>aside>ul>li a {
+        margin: 5px;
+        padding: 8px;
+        color: #dbdbdb;
+        transition: 0.5s;
+    }
+
     main>.secao-site-restaurante>aside>ul>li a:hover {
         margin-left: 20px;
-        transition-duration: 1.1s ease-in-out;
+        transition: 0.5s ease-in-out;
         color: rgba(194, 194, 194, 0.767);
     }
 }
@@ -112,9 +118,13 @@ Grandes Telas: Acima de 1200px;
         align-items: center;
     }
 
+    main>.secao-site-restaurante>aside>ul>li a {
+        transition: 0.5s;
+    }
+
     main>.secao-site-restaurante>aside>ul>li a:hover {
         margin-left: 20px;
-        transition-duration: 1.1s ease-in-out;
+        transition: 0.5s ease-in-out;
         color: rgba(194, 194, 194, 0.767);
     }
 
