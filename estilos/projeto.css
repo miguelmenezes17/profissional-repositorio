@@ -215,16 +215,7 @@ main>.secao-site-restaurante>aside>ul>li i {
 }
 
 main>.secao-site-restaurante>aside>ul>li a {
-    margin: 5px;
-    padding: 8px;
-    transition: 0.5s;
     color: white;
-}
-
-main>.secao-site-restaurante>aside>ul>li a:hover {
-    margin-left: 20px;
-    transition-duration: 1.1s ease-in-out;
-    color: rgba(194, 194, 194, 0.767);
 }
 
 main>.secao-site-restaurante>.rest>a {
