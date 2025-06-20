@@ -79,6 +79,30 @@ Grandes Telas: Acima de 1200px;
         transition: 0.5s ease-in-out;
         color: rgba(194, 194, 194, 0.767);
     }
+
+    main>.secao-projeto-login {
+        height: 600px;
+        background-color: var(--cor01);
+        margin: 0px;
+        align-items: end;
+    }
+
+    main>.secao-projeto-login>ul {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: end;
+        justify-content: start;
+        background-image: linear-gradient(to left, var(--cor020), var(--cor01));
+        padding: 25px;
+    }
+
+    main>.secao-projeto-login>ul>li>#direita {
+        transform: rotate(180deg);
+    }
+
+    main>.secao-projeto-login>#imgquinto {
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 500px) and (max-width: 768px) {
@@ -281,18 +305,8 @@ Grandes Telas: Acima de 1200px;
         justify-content: space-around;
     }
 
-    main>.secao-github>.image>div.curso>a>img {
-        width: 560px;
-    }
-
-    main>.secao-projeto-login {
-        background-color: var(--cor01);
-        margin: -10px 0px 0px 0px;
-        display: flex;
-        align-items: end;
-        justify-content: space-around;
-        flex-flow: column nowrap;
-        height: 880px;
+    main>.secao-site-restaurante {
+        min-height: 600px;
     }
 
     main>.secao-site-restaurante>aside {
@@ -326,6 +340,38 @@ Grandes Telas: Acima de 1200px;
         transition: 0.4s ease;
         color: rgba(194, 194, 194, 0.767);
     }
+
+    main>.secao-site-restaurante>.rest {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        justify-content: space-evenly;
+
+    }
+
+    main>.secao-projeto-login>ul>li>#direita {
+        display: none;
+    }
+
+    main>.secao-projeto-login>.log>a {
+        margin-top: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main>.secao-projeto-login>ul>li>a {
+        transition: 1.1s cubic-bezier(0.97, 0.02, 0.4, 1);
+        color: white;
+        margin: 15px;
+    }
+
+    main>.secao-projeto-login>ul>li>a:hover {
+        color: rgba(168, 168, 168, 0.808);
+        transition: 0.4s ease;
+        font-size: 20px;
+    }
+
 
 
 }

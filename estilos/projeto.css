@@ -189,7 +189,7 @@ main>.secao-github>.image>div.curso>a>img:hover {
 /* CONFIGURAÇÕES ABAIXO SE REFEREM AO SECTION CLASS SITE RESTAURANTE*/
 
 main>.secao-site-restaurante {
-    min-height: 500px;
+    min-height: 900px;
     margin: 0px 0px;
     padding: 0px 15px;
     background-color: var(--cor020);
@@ -218,7 +218,7 @@ main>.secao-site-restaurante>aside>ul>li a {
     color: white;
 }
 
-main>.secao-site-restaurante>.rest>a {
+main>.secao-site-restaurante>.rest>.restaurante>a {
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -226,14 +226,14 @@ main>.secao-site-restaurante>.rest>a {
 
 }
 
-main>.secao-site-restaurante>.rest>a>img {
+main>.secao-site-restaurante>.rest>.restaurante>a>img {
     border-radius: 16px;
     filter: grayscale(100%);
     transition: 0.5s;
     box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.425);
 }
 
-main>.secao-site-restaurante>.rest>a>img:hover {
+main>.secao-site-restaurante>.rest>.restaurante>a>img:hover {
     filter: grayscale(0%);
     transition: 0.5s ease-in-out;
 }
@@ -241,18 +241,23 @@ main>.secao-site-restaurante>.rest>a>img:hover {
 /* CONFIGURAÇÕES ABAIXO SE REFEREM AO SECTION CLASS PROJETO LOGIN*/
 
 main>.secao-projeto-login {
-    height: 600px;
+    display: grid;
+
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+
+    gap: 2%;
+
+    align-items: center;
+    justify-items: center;
+    min-height: 800px;
     background-color: var(--cor01);
-    margin: 0px;
 
 }
 
 main>.secao-projeto-login>ul {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: end;
-    justify-content: start;
-    background-image: linear-gradient(to left, var(--cor020), var(--cor01));
+    /*
+    background-image: linear-gradient(to left, var(--cor020), var(--cor01));*/
     padding: 25px;
 
 }
@@ -272,37 +277,17 @@ main>.secao-projeto-login>ul>li>a {
     color: white;
 }
 
-main>.secao-projeto-login>ul>li>a:hover {
-    color: rgba(168, 168, 168, 0.808);
-    margin-right: 16px;
-}
-
-main>.secao-projeto-login>ul>li>#direita {
-    transform: rotate(180deg);
-}
-
-main>.secao-projeto-login>#imgquinto {
-    margin: auto;
-}
-
-main>.secao-projeto-login>.log>a {
-    margin-top: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-main>.secao-projeto-login>.log>a>img {
+main>.secao-projeto-login>.log>picture>img {
     box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.425);
     border-radius: 16px;
     filter: grayscale(100%);
     transition: 0.5s;
 }
 
-main>.secao-projeto-login>.log>a>img:hover {
+main>.secao-projeto-login>.log>picture>img:hover {
     filter: grayscale(0%);
     transition: 0.5s ease-in-out;
+    cursor: pointer;
 }
 
 /* CONFIGURAÇÕES ABAIXO SE REFEREM AO SECTION CLASS PROJETO ANDROID*/
