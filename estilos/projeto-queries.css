@@ -84,16 +84,19 @@ Grandes Telas: Acima de 1200px;
         height: 600px;
         background-color: var(--cor01);
         margin: 0px;
-        align-items: end;
     }
 
     main>.secao-projeto-login>ul {
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: column wrap;
         align-items: end;
         justify-content: start;
         background-image: linear-gradient(to left, var(--cor020), var(--cor01));
         padding: 25px;
+    }
+
+    main>.secao-projeto-login>.log>picture>img {
+        margin-top: 20%;
     }
 
     main>.secao-projeto-login>ul>li>#direita {
@@ -372,6 +375,48 @@ Grandes Telas: Acima de 1200px;
         font-size: 20px;
     }
 
+    main>.secao-android {
+        justify-content: center;
+    }
 
+    main>.secao-android>ul>li>i {
+        display: none;
+    }
+
+    main>.secao-android>ul {
+        align-items: center;
+    }
+
+    main>.secao-android>ul a {
+        margin: 0;
+        padding: 0;
+    }
+
+    main>.secao-android>ul a:hover {
+        margin-left: 0;
+        font-size: 20px;
+        transition: 0.4s ease;
+    }
+
+    main>section.texto p {
+        max-width: 500px;
+        margin: auto;
+    }
+
+    footer {
+        background-color: #4943fd8a;
+    }
+
+    footer p {
+        color: white;
+        font-size: 1.2em;
+    }
+
+    footer p:hover {
+        color: #858585;
+        font-size: 1.5em;
+        transition: 0.4s ease;
+        cursor: pointer;
+    }
 
 }
