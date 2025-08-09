@@ -43,7 +43,7 @@ Desktop: de 992 a 1200 px;
 Grandes Telas: Acima de 1200px;
 */
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 300px) and (max-width: 500px) {
     main {
         max-width: 500px;
         margin: auto;
@@ -81,18 +81,39 @@ Grandes Telas: Acima de 1200px;
     }
 
     main>.secao-projeto-login {
-        height: 600px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+
+        align-items: center;
         background-color: var(--cor01);
-        margin: 0px;
+
     }
 
     main>.secao-projeto-login>ul {
         display: flex;
         flex-flow: column wrap;
+        align-self: normal;
         align-items: end;
-        justify-content: start;
         background-image: linear-gradient(to left, var(--cor020), var(--cor01));
-        padding: 25px;
+    }
+
+    main>.secao-projeto-login>ul>li>a {
+        margin: 5px;
+        padding: 5px;
+        transition: 0.5s;
+    }
+
+    main>.secao-projeto-login>ul>li>a:hover {
+        margin-right: 20px;
+        transition: 0.5s ease-in-out;
+    }
+
+    main>.secao-projeto-login>.log>picture {
+        margin-top: 20%;
+        margin-bottom: 10%;
+        display: flex;
+        justify-content: center;
     }
 
     main>.secao-projeto-login>.log>picture>img {
@@ -139,13 +160,14 @@ Grandes Telas: Acima de 1200px;
     }
 
     main>.secao-github>.image>div.curso>a {
-        display: flexbox;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     main>.secao-site-restaurante>aside>ul>li a {
+        margin: 5px;
+        padding: 5px;
         transition: 0.5s;
     }
 
@@ -153,6 +175,19 @@ Grandes Telas: Acima de 1200px;
         margin-left: 20px;
         transition: 0.5s ease-in-out;
         color: rgba(194, 194, 194, 0.767);
+    }
+
+    main>.secao-projeto-login>ul>li>a {
+        display: flex;
+        justify-content: center;
+    }
+
+    main>.secao-projeto-login>ul>li>a:hover {
+        font-size: 1.2em;
+    }
+
+    main>.secao-projeto-login>ul>li>i {
+        display: none;
     }
 
 
@@ -169,10 +204,7 @@ Grandes Telas: Acima de 1200px;
 
     main>.secao-projeto-login {
         background-color: var(--cor01);
-        margin: -10px 0px 0px 0px;
         display: flex;
-        align-items: end;
-        justify-content: space-around;
         flex-flow: column nowrap;
         height: 750px;
     }
@@ -218,12 +250,9 @@ Grandes Telas: Acima de 1200px;
 
     main>.secao-projeto-login {
         background-color: var(--cor01);
-        margin: -10px 0px 0px 0px;
         display: flex;
-        align-items: end;
-        justify-content: space-around;
         flex-flow: column nowrap;
-        height: 790px;
+        height: 750px;
     }
 
     main>.secao-github>aside a {
@@ -349,6 +378,24 @@ Grandes Telas: Acima de 1200px;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
         justify-content: space-evenly;
+    }
+
+    main>.secao-site-restaurante>.rest>.restaurante>a>img {
+        min-width: 450px;
+    }
+
+    main>.secao-projeto-login {
+        display: grid;
+
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+
+        gap: 2%;
+
+        align-items: center;
+        justify-items: center;
+        min-height: 800px;
+        background-color: var(--cor01);
 
     }
 
