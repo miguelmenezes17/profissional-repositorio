@@ -328,12 +328,9 @@ Grandes Telas: Acima de 1200px;
         transition: 0.4s ease;
     }
 
-    main>.secao-github>.curso {
-        flex: 1 1 100px;
-    }
-
-    main>.secao-github>.curso a {
-        width: 400px;
+    main>.secao-github>.image>div.curso>a>img {
+        width: 500px;
+        height: 350px;
     }
 
     main>.secao-github>.image {
